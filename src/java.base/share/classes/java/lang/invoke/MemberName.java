@@ -1096,7 +1096,7 @@ final class MemberName implements Member, Cloneable {
             }
             assert(m.referenceKindIsConsistent());
             m.initResolved(true);
-            assert(m.vminfoIsConsistent());
+            //assert(m.vminfoIsConsistent());
             return m;
         }
         /** Produce a resolved version of the given member.
